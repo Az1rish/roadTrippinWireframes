@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <nav role="navigation">
+        Nav
+        <a href="registration.html">Register</a>
+        <a href="signin.html">Sign in</a>
+    </nav>
+    <form>
+        <div class="full_name">
+            <label for="RegistrationForm__full_name">
+                Full name
+            </label>
+            <input type='text' name="full_name" placeholder="Full name" id="RegistrationForm__full_name" required>
+        </div>
+        <div class='user_name'>
+            <label for='RegistrationForm__user_name'>
+                User name
+            </label>
+            <input name='user_name' type='text' required        id='RegistrationForm__user_name'                  placeholder="User name">
+        </div>
+        <div class='password'>
+            <label for='RegistrationForm__password'>
+                Password
+            </label>
+            <input name='password' type='password' required
+                id='RegistrationForm__password' placeholder="password">
+        </div>
+        <button type='submit'>
+          Register
+        </button>
+      </form>
+</body>
+</html>
