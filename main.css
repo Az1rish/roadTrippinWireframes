@@ -31,7 +31,7 @@
   }
   
   header {
-    padding: 25% 0 12% 0;
+    padding: 12% 0 18% 0;
   }
   
   section {
@@ -50,24 +50,39 @@
 
   .btn {
     text-align: center;
-    border: 1px solid black;
-    margin: 1px 40%;
+    margin: 25px 40%;
+    /* font: bold 20px Arial; */
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    border-radius: 5px;
+    padding: 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
   }
 
-  img {
+  img, section {
     height: 200px;
     width: 20%;
     margin: 25px;
   }
 
-  .pics {
+  .pics, .sections {
     margin: 10% auto 3% auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    flex-direction: row;
+  }
+
+  .sections {
+    margin: auto;
   }
 
   .upload {
     padding-top: 0;
   }
+
   
