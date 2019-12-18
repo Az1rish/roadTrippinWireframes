@@ -23,6 +23,16 @@
     left: 0;
     right: 0;
     z-index: 10;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
   }
   
   a {
@@ -44,8 +54,13 @@
     background-color: #ddd;
   }
 
-  form {
-      padding-top: 30%;
+  .formPage {
+      padding-top: 20%;
+      
+  }
+
+  .bottom {
+    padding-bottom: 10%;
   }
 
   .btn {

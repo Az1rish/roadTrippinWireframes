@@ -9,13 +9,10 @@
 <body>
     <nav role="navigation">
         Road Trippin'
-        <a href="registration.html">Register</a>
-        <a href="signin.html">Sign in</a>
     </nav>
     <main role="main">
         <header role="banner">
-            <h1>Road Trippin'</h1>
-            <p>Helping everyone see the world</p>
+            <h1>Helping everyone see the world</h1>
         </header>
 
         <div class="sections">
@@ -35,10 +32,38 @@
                 Plan your next trip to see one of the many wonders the world has to offer
             </section>
         </div>
-        <a href="registration.html" class="btn">
+        <form>
+            <div class='user_name'>
+                <label for='LoginForm__user_name'>
+                    User name
+                </label>
+                <input 
+                    name='user_name' 
+                    type='text' 
+                    required        
+                    id='LoginForm__user_name'                 placeholder="User name" />
+            </div>
+            <div class='password'>
+                <label for='LoginForm__password'>
+                    Password
+                </label>
+                <input 
+                    name='password' 
+                    type='password' 
+                    required
+                    id='LoginForm__password' placeholder="password">
+            </div>
+            <a href="account.html" class="btn">
+                Sign in
+            </a>
+        </form>
+        <p>Not yet a member?</p>
+        <a href="registration.html" class="btn bottom">
             Click here to register now and start the journey!
         </a>
     </main>
-    <footer role="content-info">&copy; Shane McNeil 2019</footer>
+    <footer role="content-info">
+        &copy; Shane McNeil 2019
+    </footer>
 </body>
 </html>

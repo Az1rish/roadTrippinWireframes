@@ -14,29 +14,44 @@
         <a href="index.html">Home</a>
         <a href="signin.html">Sign in</a>
     </nav>
-    <form>
+    <form class="formPage">
         <div class="full_name">
             <label for="RegistrationForm__full_name">
                 Full name
             </label>
-            <input type='text' name="full_name"                 placeholder="Full name"                           id="RegistrationForm__full_name">
+            <input 
+                type='text' 
+                name="full_name" 
+                placeholder="Full name" 
+                required
+                id="RegistrationForm__full_name" />
         </div>
         <div class='user_name'>
             <label for='RegistrationForm__user_name'>
                 User name
             </label>
-            <input name='user_name' type='text'                 id='RegistrationForm__user_name'                  placeholder="User name">
+            <input 
+                name='user_name' 
+                type='text' 
+                id='RegistrationForm__user_name' 
+                placeholder="User name" />
         </div>
         <div class='password'>
             <label for='RegistrationForm__password'>
                 Password
             </label>
-            <input name='password' type='password'
-                id='RegistrationForm__password' placeholder="password">
+            <input 
+                name='password' 
+                type='password'
+                id='RegistrationForm__password' 
+                placeholder="password">
         </div>
         <a href="signin.html" class="btn">
             Register
         </a>
-      </form>
+    </form>
+    <footer role="content-info">
+        &copy; Shane McNeil 2019
+    </footer>
 </body>
 </html>
