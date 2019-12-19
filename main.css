@@ -59,10 +59,6 @@
       
   }
 
-  .bottom {
-    padding-bottom: 10%;
-  }
-
   .btn {
     text-align: center;
     margin: 25px 40%;
@@ -76,6 +72,20 @@
     border-right: 1px solid #333333;
     border-bottom: 1px solid #333333;
     border-left: 1px solid #CCCCCC;
+  }
+
+  .logout {
+    margin: 0 0 0 85%;
+    padding: 2px;
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+    font-size: medium;
+    font-weight: normal;
+  }
+
+  .bottom {
+    margin-bottom: 100px;
   }
 
   img, section {
@@ -100,4 +110,8 @@
     padding-top: 0;
   }
 
-  
+  .title {
+    color: #444;
+    text-align: center;
+    text-decoration: none;
+  }
