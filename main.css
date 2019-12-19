@@ -88,10 +88,19 @@
     margin-bottom: 100px;
   }
 
-  img, section {
+  .photoLink, section {
     height: 200px;
     width: 20%;
     margin: 25px;
+  }
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .photoLink {
+    display: inline;
   }
 
   .pics, .sections {
@@ -118,4 +127,8 @@
 
   label {
     vertical-align: middle;
+  }
+
+  .photoFooter {
+    position: static;
   }
