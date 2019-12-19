@@ -115,3 +115,7 @@
     text-align: center;
     text-decoration: none;
   }
+
+  label {
+    vertical-align: middle;
+  }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Upload page</title>
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <nav role="navigation">
+        <a href="account.html" class="title">Road Trippin'</a>
+    </nav>
+    <form class="formPage">
+        <div class="photo">
+            <label for="photo">
+                Upload Photo: 
+            </label>
+            <input 
+                type='file' 
+                name="photo" 
+                placeholder="Path to photo" 
+                required
+                id="photo" />
+        </div>
+        <div class='location'>
+            <label for='location'>
+                Location:
+            </label>
+            <input 
+                name='location' 
+                type='text'
+                id='location' 
+                placeholder="Location">
+        </div>
+        <div class='description'>
+            <label for='description'>
+                Description:
+            </label>
+            <textarea 
+                name='description'  
+                id='description' 
+                placeholder="Description"
+                rows="6"
+                cols="40"></textarea>
+        </div>
+        
+        <a href="account.html" class="btn">
+            Add Photo
+        </a>
+    </form>
+    <footer role="content-info">
+        &copy; Shane McNeil 2019
+    </footer>
+</body>
+</html>
