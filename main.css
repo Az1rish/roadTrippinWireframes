@@ -90,7 +90,7 @@
   }
 
   .bottom {
-    margin-bottom: 100px;
+    margin-bottom: 30px;
   }
 
   .photoLink, section {
@@ -158,5 +158,9 @@
 
     .pics, .sections {
       margin: 10% auto 3% auto;
+    }
+
+    .bottom {
+      margin-bottom: 100px;
     }
   }
